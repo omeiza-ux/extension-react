@@ -14,6 +14,8 @@ function Navbar() {
         <Link to="/" className="btn">Home</Link>
         <span>|</span>
         <Link to="/about" className="btn">About</Link>
+        <span>|</span>
+        <Link to="/notFound" className="btn">NotFoundPage </Link>                                                     
       </div>
       <div className='glass-effect__light-mode-switch light-mode-switch'>
         <img src={lightModeSwitch} alt='light mode switch' />
